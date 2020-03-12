@@ -16,3 +16,19 @@ function add(){
 }
 其文如是矣。
 或云『「連加」』。蓋謂『「add」』。
+爪哇國有腳本
+function mut(){
+	var _args = Array.prototype.slice.call(arguments);
+	var _muter = function() {
+		_args.push(...arguments);
+		return _muter;
+	};
+	_adder.toString = function(){
+		return _args.reduce(function (a,b){
+			return a+b;
+		});
+	}
+	return _muter;
+}
+其文如是矣。
+或云『「連乘」』。蓋謂『「mut」』。
