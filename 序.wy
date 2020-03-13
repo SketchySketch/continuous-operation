@@ -14,7 +14,7 @@ function add(){
 	return _adder;
 }
 其文如是矣。
-或云『「連加」』。蓋謂『「add」』。
+或云『「連加」』。蓋謂『「連加連乘.add」』。
 爪哇國有腳本
 function mut(){
 	var _args = Array.prototype.slice.call(arguments);
@@ -30,4 +30,4 @@ function mut(){
 	return _muter;
 }
 其文如是矣。
-或云『「連乘」』。蓋謂『「mut」』。
+或云『「連乘」』。蓋謂『「連加連乘.mut」』。
