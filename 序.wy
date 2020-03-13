@@ -1,4 +1,5 @@
-吾嘗觀「「腳本秘術」」之書。
+或云『爪哇國有腳本』蓋謂『疏曰*/』
+或云『其文如是矣』蓋謂『/*』
 爪哇國有腳本
 var add = new function(){
 	var _args = Array.prototype.slice.call(arguments);
