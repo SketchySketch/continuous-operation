@@ -1,7 +1,7 @@
 或云『爪哇國有腳本』蓋謂『疏曰*/』
 或云『其文如是矣』蓋謂『/*』
 爪哇國有腳本
-var add = function(){
+ function add(){
 	var _args = Array.prototype.slice.call(arguments);
 	var _adder = function() {
 		_args.push(...arguments);
@@ -17,7 +17,7 @@ var add = function(){
 其文如是矣。
 或云『「連加」』。蓋謂『「連加連乘.add」』。
 爪哇國有腳本
-var mut = function(){
+function mut(){
 	var _args = Array.prototype.slice.call(arguments);
 	var _muter = function() {
 		_args.push(...arguments);
