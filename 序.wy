@@ -1,6 +1,6 @@
 吾嘗觀「「腳本秘術」」之書。
 爪哇國有腳本
-function add(){
+var add = function(){
 	var _args = Array.prototype.slice.call(arguments);
 	var _adder = function() {
 		_args.push(...arguments);
@@ -16,7 +16,7 @@ function add(){
 其文如是矣。
 或云『「連加」』。蓋謂『「連加連乘.add」』。
 爪哇國有腳本
-function mut(){
+var mut = function(){
 	var _args = Array.prototype.slice.call(arguments);
 	var _muter = function() {
 		_args.push(...arguments);
