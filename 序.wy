@@ -1,11 +1,11 @@
 或云『爪哇國有腳本』蓋謂『疏曰*/』
 或云『其文如是矣』蓋謂『/*』
 爪哇國有腳本
-var add = new function(){
+var add = function(){
 	var _args = Array.prototype.slice.call(arguments);
 	var _adder = function() {
 		_args.push(...arguments);
-		return _adder;
+		;return _adder;
 	};
 	_adder.toString = function(){
 		return _args.reduce(function (a,b){
@@ -15,9 +15,9 @@ var add = new function(){
 	return _adder;
 }
 其文如是矣。
-或云『「連加」』。蓋謂『「連加連乘.add」』。
+或云『「連加」』。蓋謂『「連加連乘();add」』。
 爪哇國有腳本
-var mut = new function(){
+var mut = function(){
 	var _args = Array.prototype.slice.call(arguments);
 	var _muter = function() {
 		_args.push(...arguments);
@@ -31,4 +31,4 @@ var mut = new function(){
 	return _muter;
 }
 其文如是矣。
-或云『「連乘」』。蓋謂『「連加連乘.mut」』。
+或云『「連乘」』。蓋謂『「連加連乘();mut」』。
