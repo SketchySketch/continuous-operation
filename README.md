@@ -11,3 +11,5 @@
       加「甲」以一。書之。                    注曰。『七』
   ```
 - Don't forget to add ```方悟「連加」之義``` ```方悟「連乘」之義```.
+## Warning
+This package may cause __execution delay__.
