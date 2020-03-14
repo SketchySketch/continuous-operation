@@ -12,6 +12,6 @@
   ```
 - Don't forget to add ```方悟「連加」之義``` ```方悟「連乘」之義```.
 ## Warning
-This package may cause __execution delay__.
+When using this package the first time, because of the complex structure, it may cause execution delay, but normally, it only takes a few seconds. Be patient!
 ## Learn more
 Learn more about wenyan-lang(https://wy-lang.org) and wyg(https://wyg.wy-lang.org).
