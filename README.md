@@ -13,3 +13,5 @@
 - Don't forget to add ```方悟「連加」之義``` ```方悟「連乘」之義```.
 ## Warning
 This package may cause __execution delay__.
+## Learn more
+Learn more about wenyan-lang(https://wy-lang.org) and wyg(https://wyg.wy-lang.org).
