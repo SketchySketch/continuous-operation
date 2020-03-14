@@ -5,11 +5,11 @@ var add = this.add = function(){
 	var _args = Array.prototype.slice.call(arguments);
 	var _adder = function() {
 		_args.push(...arguments);
-		;return _adder;
+		return _adder;
 	};
 	_adder.toString = function(){
 		return _args.reduce(function (a,b){
-			return a+b;
+			return a + b;
 		});
 	}
 	return _adder;
@@ -25,7 +25,7 @@ var mut = this.mut = function(){
 	};
 	_muter.toString = function(){
 		return _args.reduce(function (a,b){
-			return a*b;
+			return a * b;
 		});
 	}
 	return _muter;
