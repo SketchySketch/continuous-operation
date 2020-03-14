@@ -14,4 +14,6 @@
 ## Warning
 When using this package the first time, because of the complex structure, it may cause execution delay, but normally, it only takes a few seconds. Be patient!
 ## Learn more
-Learn more about wenyan-lang(https://wy-lang.org) and wyg(https://wyg.wy-lang.org).
+Learn more about [wenyan-lang](https://wy-lang.org) and [wyg](https://wyg.wy-lang.org).
+
+[Check the website of this package.](https://xingzilong.github.io/continuous-operation)
